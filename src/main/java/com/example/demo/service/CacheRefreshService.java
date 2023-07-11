@@ -40,6 +40,8 @@ public class CacheRefreshService {
         if (cache.isKeyInCache(key)) {
             cache.remove(key);
         }
+        //refer below link for programmatic cache
+        //https://dev.to/crmepham/programmatic-access-to-ehcache-in-spring-boot-1oci
     }
     
     private void addOrUpdateCacheElements() {
